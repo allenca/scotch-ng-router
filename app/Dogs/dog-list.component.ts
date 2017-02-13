@@ -26,7 +26,7 @@ export class DogListComponent implements OnInit {
 
   }
 
-  // Load data ones componet is ready
+  // Load data ones component is ready
   ngOnInit() {
     // Pass retreived pets to the property
     this.dogs = this.petService.findPets('dog');

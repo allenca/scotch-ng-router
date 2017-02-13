@@ -20,6 +20,7 @@ import { ActivatedRoute } from '@angular/router';
 export class CatDetailsComponent implements OnInit {
   // Private properties for binding
   private sub:any;
+  // ex. var fred, this sub can basically be anything
   private cat:string[];
 
   constructor(private petService: PetService, private route: ActivatedRoute) {
