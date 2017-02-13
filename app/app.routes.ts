@@ -18,6 +18,8 @@ export const routes: Routes = [
   ...dogRoutes
 ];
 
+// read http://bit.ly/ellipsis-ng2routers for information about the ellipsis.
+
 // Deprecated provide
 // export const APP_ROUTER_PROVIDERS = [
 //   provideRouter(routes)
